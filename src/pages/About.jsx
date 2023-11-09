@@ -8,7 +8,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-
 export const About = () => {
   const settings = {
     dots: true,
@@ -18,7 +17,6 @@ export const About = () => {
     slidesToScroll: 2,
     autoplaySpeed: 3000,
   };
-
 
   return (
     <div>
